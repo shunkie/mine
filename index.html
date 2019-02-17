@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Shunkie - Front-end Developer</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Montserrat|Quicksand"
+    />
+    <link rel="stylesheet" href="css/minireset.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link
+      href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/animations.css" />
+    <script src="js/main.js"></script>
+  </head>
+  <noscript>
+    <style type="text/css">
+      .wallpaper {
+        animation-name: zoomOut;
+      }
+      .picture {
+        animation-name: dropIn;
+      }
+    </style>
+  </noscript>
+  <body>
+    <div id="wallpaper" class="wallpaper" data-image="image/view.png"></div>
+    <div class="content">
+      <aside class="side">
+        <figure id="picture" class="picture">
+          <div class="picture-shadow"></div>
+          <img
+            id="pictureImage"
+            class="picture-image"
+            src="image/shunkie.jpg"
+            srcset="
+              image/shunkie.jpg 1x,
+              image/shunkie@2x.jpg 2x,
+              image/shunkie@3x.jpg 3x
+            "
+            alt="Portrait of Alex Jefferson"
+            width="320"
+            height="320"
+          />
+        </figure>
+      </aside>
+      <main class="about">
+        <h1 class="name">
+          Hi, I'm Shunkie
+        </h1>
+        <p class="job">
+          Front-end Developer
+        </p>
+        <hr class="hr" />
+        <div class="description">
+          <p>
+            Thank you for visiting my website, have a good time.😘
+          </p>
+        </div>
+        <div class="contact">
+          <a class="button" href="mailto:shunkie@qq.com">
+            Get in touch
+          </a>
+        </div>
+        <ul class="social">
+          <li>
+            <a>
+              <i class="fa fa-twitter"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/shunkie">
+              <i class="fa fa-github"></i>
+            </a>
+          </li>
+          <li>
+            <a>
+              <i class="fa fa-linkedin"></i>
+            </a>
+          </li>
+        </ul>
+      </main>
+    </div>
+  </body>
+</html>
