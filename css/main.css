@@ -63,7 +63,7 @@ a {
 /* 3. Specific */
 
 .wallpaper {
-  background-image: url("../image/view.png");
+  background-image: url("../image/view.jpg");
   background-position: center;
   background-size: cover;
   opacity: 0.2;
