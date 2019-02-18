@@ -5,7 +5,7 @@ function loadImage (id, targetId) {
 
   if (el.dataset.image) {
     imageToLoad = el.dataset.image
-  } else if (typeof el.currentSrc === 'undefined') {
+  } else if (el.currentSrc === '') {
     imageToLoad = el.src
   } else {
     imageToLoad = el.currentSrc
